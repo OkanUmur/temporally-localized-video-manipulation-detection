@@ -61,7 +61,7 @@ The `data/` directory contains lightweight metadata describing the frame inserti
 - `fps_original`
 - `fps_fake`
 
-See `data/frame_insertion_metadata.csv`.
+See [data/frame_insertion_metadata.csv](data/frame_insertion_metadata.csv).
 
 ## Manipulation Scenario
 
