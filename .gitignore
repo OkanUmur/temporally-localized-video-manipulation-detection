@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large datasets and model weights
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.pth
+*.pt
+*.onnx
+*.npy
+*.npz
+*.zip
+*.rar
+*.7z
+
+# Generated outputs
+outputs/
+results/
+checkpoints/
+logs/
+
+# Optional local artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
