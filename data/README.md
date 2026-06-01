@@ -24,7 +24,6 @@ The metadata fields are:
 - `start_frame`
 - `end_frame`
 - `total_frames_after_merge`
-- `timestamp`
 - `fps_original`
 - `fps_fake`
 

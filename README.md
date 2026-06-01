@@ -57,7 +57,6 @@ The `data/` directory contains lightweight metadata describing the frame inserti
 - `start_frame`
 - `end_frame`
 - `total_frames_after_merge`
-- `timestamp`
 - `fps_original`
 - `fps_fake`
 
