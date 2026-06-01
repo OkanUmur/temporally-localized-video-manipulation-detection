@@ -4,7 +4,7 @@ This repository provides code, metadata, and release notes for the paper:
 
 **Detecting Temporally Localized Manipulations in Authentic Video Streams**
 
-Authors: Okan Umur, Ali Emre Guclu, Ibrahim Delibasoglu
+Authors: Okan Umur, Ali Emre Güşlü, Ibrahim Delibasoglu
 
 ## Status
 
