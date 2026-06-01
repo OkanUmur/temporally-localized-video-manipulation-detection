@@ -1,28 +1,23 @@
 # Detecting Temporally Localized Manipulations in Authentic Video Streams
 
-Official repository for the paper:
+This repository provides code, metadata, and release notes for the paper:
 
 **Detecting Temporally Localized Manipulations in Authentic Video Streams**
 
-This project investigates a realistic video forensics scenario where a short manipulated segment is inserted into an otherwise authentic video stream and the original footage resumes afterward. The repository will host code, metadata, evaluation scripts, and reproducibility notes for the paper.
+Authors: Okan Umur, Ali Emre Guclu, Ibrahim Delibasoglu
 
 ## Status
 
-This repository is being prepared for release. The paper, code, dataset metadata, and evaluation artifacts are being cleaned and organized. Public links and citation information will be added after the arXiv submission is available.
+This repository is being prepared for release. The paper, code, dataset metadata, and evaluation artifacts are being cleaned and organized.
 
-## Method Overview
+- Paper: coming soon
+- arXiv: coming soon
+- Dataset download: under preparation
+- Citation: coming soon
 
-The paper evaluates two complementary approaches:
+## Dataset Description
 
-1. **Linear Probe on DINOv3 Features**
-   - A supervised baseline using frozen DINOv3 features.
-   - Evaluated with fixed, adaptive, and sliding-window thresholding.
-
-2. **DINOv3 Feature Similarity**
-   - A training-free temporal anomaly detection method.
-   - Uses consecutive-frame cosine distance, local Z-score normalization, and a minimum distance threshold.
-
-## Dataset Summary
+This work studies a realistic video forensics scenario where a short manipulated segment is inserted into an otherwise authentic video stream and the original footage resumes afterward. This differs from many existing video forgery datasets that focus on fully manipulated videos, face-centric deepfakes, object removal, or audio-only manipulations.
 
 The custom evaluation set contains:
 
@@ -36,7 +31,55 @@ The merged videos follow this temporal structure:
 authentic frames -> inserted manipulated segment -> authentic continuation
 ```
 
-Dense frame-level labels are used to mark the inserted manipulation intervals.
+Dense frame-level labels mark the inserted manipulation intervals.
+
+## Dataset Structure
+
+The dataset release is organized conceptually as follows:
+
+```text
+dataset/
++-- authentic/       Pure authentic control videos
++-- fake_segments/   Generated manipulation segments
++-- merged/          Partially manipulated videos
++-- metadata/        Frame insertion logs and labels
+```
+
+The full video files are not included in this GitHub repository. Dataset release details will be added after licensing and redistribution checks are completed.
+
+## Metadata
+
+The `data/` directory contains lightweight metadata describing the frame insertion process:
+
+- `video_name`
+- `original_frames`
+- `fake_frames_added`
+- `start_frame`
+- `end_frame`
+- `total_frames_after_merge`
+- `timestamp`
+- `fps_original`
+- `fps_fake`
+
+See `data/frame_insertion_metadata.csv`.
+
+## Manipulation Scenario
+
+For each authentic source video, the 100th frame is used as the transition point. A generated manipulation segment is inserted after the first 99 authentic frames, and the remaining authentic video continues after the inserted segment.
+
+This creates a challenging temporally localized manipulation setting where the forged region is short relative to the full video and must remain visually coherent with the surrounding authentic content.
+
+## Detection Methods
+
+The paper evaluates two complementary approaches:
+
+1. **Linear Probe on DINOv3 Features**
+   - Supervised baseline using frozen DINOv3 features.
+   - Evaluated with fixed, adaptive, and sliding-window thresholding.
+
+2. **DINOv3 Feature Similarity**
+   - Training-free temporal anomaly detection method.
+   - Uses consecutive-frame cosine distance, local Z-score normalization, and a minimum distance threshold.
 
 ## Main Results
 
@@ -69,18 +112,32 @@ Dense frame-level labels are used to mark the inserted manipulation intervals.
 
 ```text
 .
-+-- data/      Dataset metadata and release notes
-+-- docs/      Reproducibility and repository preparation notes
-+-- figures/   Figure release notes and selected result visualizations
-+-- paper/     Paper and citation notes
-+-- src/       Code organization notes and scripts
++-- data/         Dataset metadata and release notes
++-- docs/         Reproducibility and repository preparation notes
++-- figures/      Selected figures and result visualizations
++-- paper/        Paper and citation notes
++-- src/          Code organization notes and scripts
++-- README.md
++-- requirements.txt
 ```
+
+## Examples
+
+Selected visual examples and detection trajectories will be added to `figures/`.
+
+## Code
+
+The cleaned evaluation code will be added to `src/`. The planned script organization includes:
+
+- feature extraction
+- consecutive-frame distance computation
+- feature similarity evaluation
+- pure authentic control evaluation
+- plotting utilities
 
 ## Dataset Availability
 
 The dataset contains mixed-source authentic videos, generated manipulation segments, and derived merged videos. Because licensing and redistribution permissions may vary by source, the full dataset release will be documented separately.
-
-Metadata and dataset construction notes will be provided in `data/`.
 
 ## Citation
 
@@ -89,3 +146,7 @@ Citation information will be added after the arXiv record is available.
 ## License
 
 License information will be added before the first stable release. Dataset redistribution terms may differ from code licensing terms.
+
+## Contact
+
+For questions, please contact the authors after the public release information is finalized.
