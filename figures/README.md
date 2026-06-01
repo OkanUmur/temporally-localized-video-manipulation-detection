@@ -1,12 +1,13 @@
 # Figures
 
-This directory is reserved for selected paper figures and result visualizations.
+This directory contains selected paper figures and result visualizations used in the repository README.
 
-Recommended contents:
+Included examples:
 
-- representative dataset examples
-- feature similarity trajectory examples
-- pure authentic control group trajectories
-- global performance plots
+- `temporal_sequence_original.png`: authentic frame before the inserted segment.
+- `temporal_sequence_manipulated.png`: inserted manipulated segment example.
+- `temporal_sequence_continuation.png`: authentic continuation after the inserted segment.
+- `feature_similarity_success_video39.png`: successful manipulation localization example.
+- `control_group_true_negative_video10.png`: true-negative pure authentic control example.
 
-Large batches of generated plots should not be committed unless needed for reproducibility.
+Large batches of generated plots are intentionally excluded from the repository.

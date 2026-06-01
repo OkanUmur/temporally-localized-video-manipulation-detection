@@ -122,7 +122,27 @@ The paper evaluates two complementary approaches:
 
 ## Examples
 
-Selected visual examples and detection trajectories will be added to `figures/`.
+### Temporal Manipulation Sequence
+
+The core dataset scenario inserts a short manipulated segment into an otherwise authentic video stream:
+
+```text
+Step 1: authentic video frames -> Step 2: inserted manipulated segment -> Step 3: authentic continuation
+```
+
+| Step 1: Original video | Step 2: Manipulated segment | Step 3: Original continuation |
+| --- | --- | --- |
+| ![Original video frame](figures/temporal_sequence_original.png) | ![Inserted manipulated segment](figures/temporal_sequence_manipulated.png) | ![Original continuation frame](figures/temporal_sequence_continuation.png) |
+
+### Detection Trajectories
+
+Example output from the DINOv3 feature similarity approach:
+
+![Successful manipulation localization](figures/feature_similarity_success_video39.png)
+
+Example true-negative trajectory from the pure authentic control group:
+
+![Pure authentic control group true negative](figures/control_group_true_negative_video10.png)
 
 ## Code
 
