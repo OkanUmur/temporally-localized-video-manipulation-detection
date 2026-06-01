@@ -130,9 +130,13 @@ The core dataset scenario inserts a short manipulated segment into an otherwise 
 Step 1: authentic video frames -> Step 2: inserted manipulated segment -> Step 3: authentic continuation
 ```
 
-| Step 1: Original video | Step 2: Manipulated segment | Step 3: Original continuation |
-| --- | --- | --- |
-| ![Original video frame](figures/temporal_sequence_original.png) | ![Inserted manipulated segment](figures/temporal_sequence_manipulated.png) | ![Original continuation frame](figures/temporal_sequence_continuation.png) |
+The table below shows three representative examples of this temporal structure.
+
+| Example | Step 1: Original video | Step 2: Manipulated segment | Step 3: Original continuation |
+| --- | --- | --- | --- |
+| Example 1 | ![Example 1 original frame](figures/example1_original.png) | ![Example 1 manipulated segment](figures/example1_manipulated.png) | ![Example 1 original continuation](figures/example1_continuation.png) |
+| Example 2 | ![Example 2 original frame](figures/example2_original.png) | ![Example 2 manipulated segment](figures/example2_manipulated.png) | ![Example 2 original continuation](figures/example2_continuation.png) |
+| Example 3 | ![Example 3 original frame](figures/example3_original.png) | ![Example 3 manipulated segment](figures/example3_manipulated.png) | ![Example 3 original continuation](figures/example3_continuation.png) |
 
 ### Detection Trajectories
 
