@@ -150,13 +150,19 @@ Example true-negative trajectory from the pure authentic control group:
 
 ## Code
 
-The cleaned evaluation code will be added to `src/`. The planned script organization includes:
+The `src/` directory contains cleaned scripts for the DINOv3 feature-similarity pipeline:
 
-- feature extraction
-- consecutive-frame distance computation
-- feature similarity evaluation
-- pure authentic control evaluation
-- plotting utilities
+- `extract_dinov3_features.py`: extract DINOv3 frame features from videos.
+- `compute_frame_distances.py`: compute consecutive-frame cosine distances.
+- `evaluate_merged_videos.py`: reproduce merged-video frame-level metrics.
+- `evaluate_control_group.py`: reproduce pure authentic control-group metrics.
+- `plot_detection_trajectories.py`: generate Z-score trajectory plots.
+
+Install dependencies with:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Dataset Availability
 
