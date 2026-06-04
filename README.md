@@ -178,4 +178,4 @@ License information will be added before the first stable release. Dataset redis
 
 ## Contact
 
-For questions, please contact the authors after the public release information is finalized.
+For questions about the dataset, code, or paper, please contact Okan Umur at umuro2124@gmail.com.
