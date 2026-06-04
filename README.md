@@ -174,7 +174,9 @@ Citation information will be added after the arXiv record is available.
 
 ## License
 
-License information will be added before the first stable release. Dataset redistribution terms may differ from code licensing terms.
+The dataset is released under the Creative Commons Attribution 4.0 International (CC BY 4.0) license via Zenodo.
+
+The source code in this repository is released under the MIT License.
 
 ## Contact
 
