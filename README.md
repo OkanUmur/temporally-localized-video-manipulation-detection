@@ -10,7 +10,7 @@ Authors: Okan Umur, Ali Emre Güşlü, Ibrahim Delibasoglu
 
 This repository is being prepared for release. The paper, code, dataset metadata, and evaluation artifacts are being cleaned and organized.
 
-- Paper: coming soon
+- Paper: [PDF](paper/detecting-temporally-localized-manipulations-in-authentic-video-streams.pdf)
 - arXiv: coming soon
 - Dataset download: [Zenodo v1.0](https://doi.org/10.5281/zenodo.20548572)
 - Citation: dataset DOI available; paper citation coming soon

@@ -1,11 +1,7 @@
 # Paper
 
-This directory is reserved for paper-related files.
+This directory contains the submitted paper PDF:
 
-Recommended contents for the public repository after submission:
+- [detecting-temporally-localized-manipulations-in-authentic-video-streams.pdf](detecting-temporally-localized-manipulations-in-authentic-video-streams.pdf)
 
-- final arXiv PDF, if the file size is acceptable
-- BibTeX citation
-- optional LaTeX source if the authors want to mirror the arXiv source
-
-The arXiv link and citation information will be added after publication.
+The arXiv link and citation information will be added after the arXiv record is announced.
