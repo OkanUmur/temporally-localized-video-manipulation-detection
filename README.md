@@ -1,5 +1,7 @@
 # Detecting Temporally Localized Manipulations in Authentic Video Streams
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20548572.svg)](https://doi.org/10.5281/zenodo.20548572)
+
 This repository provides code, metadata, and release notes for the paper:
 
 **Detecting Temporally Localized Manipulations in Authentic Video Streams**
