@@ -27,8 +27,8 @@ The metadata fields are:
 - `fps_original`
 - `fps_fake`
 
-The public dataset release plan will be added here after source licensing and redistribution constraints are reviewed.
-
 ## Important Note
 
-Large video files are intentionally excluded from the GitHub repository. A separate dataset hosting option such as Zenodo, Hugging Face Datasets, Kaggle, or Google Drive may be used for distribution.
+Large video files are intentionally excluded from the GitHub repository. The complete dataset is publicly available on Zenodo:
+
+https://doi.org/10.5281/zenodo.20548572

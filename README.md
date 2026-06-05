@@ -12,8 +12,8 @@ This repository is being prepared for release. The paper, code, dataset metadata
 
 - Paper: coming soon
 - arXiv: coming soon
-- Dataset download: under preparation
-- Citation: coming soon
+- Dataset download: [Zenodo v1.0](https://doi.org/10.5281/zenodo.20548572)
+- Citation: dataset DOI available; paper citation coming soon
 
 ## Dataset Description
 
@@ -45,7 +45,10 @@ dataset/
 +-- metadata/        Frame insertion logs and labels
 ```
 
-The full video files are not included in this GitHub repository. Dataset release details will be added after licensing and redistribution checks are completed.
+The full video files are not included in this GitHub repository. The complete dataset is available on Zenodo:
+
+- Dataset v1.0 DOI: [10.5281/zenodo.20548572](https://doi.org/10.5281/zenodo.20548572)
+- All versions DOI: [10.5281/zenodo.20548571](https://doi.org/10.5281/zenodo.20548571)
 
 ## Metadata
 
@@ -166,11 +169,19 @@ pip install -r requirements.txt
 
 ## Dataset Availability
 
-The dataset contains mixed-source authentic videos, generated manipulation segments, and derived merged videos. Because licensing and redistribution permissions may vary by source, the full dataset release will be documented separately.
+The full dataset is publicly available on Zenodo under the Creative Commons Attribution 4.0 International (CC BY 4.0) license:
+
+https://doi.org/10.5281/zenodo.20548572
 
 ## Citation
 
-Citation information will be added after the arXiv record is available.
+Dataset citation:
+
+```text
+Umur, O., & Güşlü, A. E. (2026). Detecting Temporally Localized Manipulations in Authentic Video Streams Dataset (v1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20548572
+```
+
+Paper citation information will be added after the arXiv record is available.
 
 ## License
 
