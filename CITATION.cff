@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the paper and the dataset."
+title: "Detecting Temporally Localized Manipulations in Authentic Video Streams"
+authors:
+  - family-names: "Umur"
+    given-names: "Okan"
+  - family-names: "Güşlü"
+    given-names: "Ali Emre"
+  - family-names: "Delibasoglu"
+    given-names: "Ibrahim"
+date-released: "2026-06-08"
+url: "https://github.com/OkanUmur/temporally-localized-video-manipulation-detection"
+repository-code: "https://github.com/OkanUmur/temporally-localized-video-manipulation-detection"
+license: "MIT"
+preferred-citation:
+  type: article
+  title: "Detecting Temporally Localized Manipulations in Authentic Video Streams"
+  authors:
+    - family-names: "Umur"
+      given-names: "Okan"
+    - family-names: "Güşlü"
+      given-names: "Ali Emre"
+    - family-names: "Delibasoglu"
+      given-names: "Ibrahim"
+  year: 2026
+  journal: "arXiv preprint arXiv:2606.07090"
+  url: "https://arxiv.org/abs/2606.07090"
+  identifiers:
+    - type: other
+      value: "arXiv:2606.07090"

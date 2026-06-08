@@ -1,18 +1,16 @@
-# Repository Preparation Plan
+# Repository Release Checklist
 
-## Immediate arXiv-Ready Version
+## Completed Public Release
 
-- Create a public GitHub repository.
-- Upload this scaffold.
-- Add the repository URL to the arXiv submission metadata or paper if needed.
-
-## Before arXiv Becomes Public
-
-- Add cleaned evaluation scripts under `src/`.
-- Add dataset construction metadata under `data/`.
-- Add selected figures under `figures/`.
-- Add the arXiv link to `README.md`.
-- Add `CITATION.cff` after the arXiv record is available.
+- Public GitHub repository created.
+- Cleaned evaluation scripts added under `src/`.
+- Dataset construction metadata added under `data/`.
+- Selected figures added under `figures/`.
+- Final paper PDF added under `paper/`.
+- Dataset published on Zenodo with a permanent DOI.
+- Paper published as [arXiv:2606.07090](https://arxiv.org/abs/2606.07090).
+- Paper and dataset citation information added.
+- `CITATION.cff` added for GitHub citation support.
 
 ## Do Not Commit
 

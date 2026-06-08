@@ -1,5 +1,8 @@
 # Detecting Temporally Localized Manipulations in Authentic Video Streams
 
+[![arXiv](https://img.shields.io/badge/arXiv-2606.07090-b31b1b.svg)](https://arxiv.org/abs/2606.07090)
+[![Dataset DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20548572.svg)](https://doi.org/10.5281/zenodo.20548572)
+
 This repository provides code, metadata, and release notes for the paper:
 
 **Detecting Temporally Localized Manipulations in Authentic Video Streams**
@@ -8,12 +11,12 @@ Authors: Okan Umur, Ali Emre Güşlü, Ibrahim Delibasoglu
 
 ## Status
 
-This repository is being prepared for release. The paper, code, dataset metadata, and evaluation artifacts are being cleaned and organized.
+This repository provides the public release of the paper artifacts, cleaned evaluation code, dataset metadata, selected figures, and reproducibility notes.
 
 - Paper: [PDF](paper/detecting-temporally-localized-manipulations-in-authentic-video-streams.pdf)
-- arXiv: coming soon
+- arXiv: [arXiv:2606.07090](https://arxiv.org/abs/2606.07090)
 - Dataset download: [Zenodo v1.0](https://doi.org/10.5281/zenodo.20548572)
-- Citation: dataset DOI available; paper citation coming soon
+- Citation: paper and dataset citation information is provided below
 
 ## Dataset Description
 
@@ -175,13 +178,25 @@ https://doi.org/10.5281/zenodo.20548572
 
 ## Citation
 
+Paper citation:
+
+```bibtex
+@misc{umur2026detectingtemporallylocalized,
+  title = {Detecting Temporally Localized Manipulations in Authentic Video Streams},
+  author = {Okan Umur and Ali Emre Güşlü and Ibrahim Delibasoglu},
+  year = {2026},
+  eprint = {2606.07090},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CV},
+  url = {https://arxiv.org/abs/2606.07090}
+}
+```
+
 Dataset citation:
 
 ```text
 Umur, O., & Güşlü, A. E. (2026). Detecting Temporally Localized Manipulations in Authentic Video Streams Dataset (v1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20548572
 ```
-
-Paper citation information will be added after the arXiv record is available.
 
 ## License
 
